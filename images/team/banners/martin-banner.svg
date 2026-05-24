@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1a5fa8"/><stop offset="100%" style="stop-color:#2daa5e"/></linearGradient></defs>
+  <rect width="800" height="200" fill="url(#g)"/>
+  <text x="40" y="70" fill="#fff" font-family="Segoe UI,sans-serif" font-size="28" font-weight="700">Martin Flag</text>
+  <text x="40" y="105" fill="#e8f8ef" font-family="Segoe UI,sans-serif" font-size="16">Marketing Director � Digital Skills Lead</text>
+  <text x="40" y="140" fill="#fff" font-family="Segoe UI,sans-serif" font-size="13">BAC � BSc Business Intelligence and Data Analytics</text>
+  <text x="40" y="168" fill="#d4efe0" font-family="Segoe UI,sans-serif" font-size="12">Word � PowerPoint � Canva � AI � Sales Analytics</text>
+</svg>
