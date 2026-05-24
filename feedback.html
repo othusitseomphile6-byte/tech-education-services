@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback | Tech Education Services</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img src="images/logo/tech-edu-logo.jpeg" alt="Logo"></div>
+      <span>Tech Education Services</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tutorials.html">Tutorials</a></li>
+      <li><a href="exams.html">Exams</a></li>
+      <li><a href="store.html">Store</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="feedback.html" class="active">Feedback</a></li>
+      <li><a href="register.html" class="nav-cta">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-hero">
+    <h1>Feedback</h1>
+    <p>Share your experience about our <strong>tutorials</strong> or <strong>tech gadgets</strong>. All feedback stays on this website.</p>
+  </header>
+
+  <section>
+    <div class="container form-page">
+      <div id="form-msg" class="form-message"></div>
+      <div class="form-card reveal">
+        <form id="feedback-form">
+          <div class="form-group">
+            <label for="fbName">Your Name *</label>
+            <input type="text" id="fbName" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="fbEmail">Email</label>
+            <input type="email" id="fbEmail" name="email">
+          </div>
+          <div class="form-group">
+            <label for="feedbackType">Feedback about *</label>
+            <select id="feedbackType" name="feedbackType" required>
+              <option value="">— Select —</option>
+              <option value="tutorial">Tutorial / ICT Course</option>
+              <option value="gadget">Tech Gadget / Store Product</option>
+              <option value="general">General Website / Service</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="feedbackItem">Which course or product?</label>
+            <select id="feedbackItem" name="feedbackItem"></select>
+          </div>
+          <div class="form-group">
+            <label>Rating *</label>
+            <div class="rating-stars">
+              <label><input type="radio" name="rating" value="5" required> ⭐⭐⭐⭐⭐ Excellent</label>
+              <label><input type="radio" name="rating" value="4"> ⭐⭐⭐⭐ Good</label>
+              <label><input type="radio" name="rating" value="3"> ⭐⭐⭐ Average</label>
+              <label><input type="radio" name="rating" value="2"> ⭐⭐ Poor</label>
+              <label><input type="radio" name="rating" value="1"> ⭐ Very Poor</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fbMessage">Your feedback *</label>
+            <textarea id="fbMessage" name="message" required placeholder="What did you like? What can we improve?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Submit Feedback</button>
+        </form>
+      </div>
+      <p style="text-align:center;margin-top:2rem;">
+        <a href="tutorials.html" class="btn btn-outline">← Tutorials</a>
+        <a href="store.html" class="btn btn-outline">Store →</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-bottom" style="margin:0 auto;padding:2rem;text-align:center;">
+      <span>© 2026 Tech Education Services (Pty) Ltd.</span>
+    </div>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/site-data.js"></script>
+  <script src="js/products-data.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

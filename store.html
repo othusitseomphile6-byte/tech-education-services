@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Device Store | Tech Education Services</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img src="images/logo/tech-edu-logo.jpeg" alt="Logo"></div>
+      <span>Tech Education Services</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tutorials.html">Tutorials</a></li>
+      <li><a href="exams.html">Exams</a></li>
+      <li><a href="store.html" class="active">Store</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="register.html" class="nav-cta">Cart <span id="cart-count" class="cart-badge" style="display:none">0</span></a></li>
+    </ul>
+  </nav>
+
+  <header class="page-hero">
+    <p class="section-label">Real gadget images · images/products/</p>
+    <h1>Tech Device Store</h1>
+    <p>Phones (Samsung, iPhone, itel, Tecno, Huawei, Xiaomi), laptops (Dell, HP, Acer, Lenovo, Apple), chargers, SSDs, RAM, and accessories — all with real product photos.</p>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all">All Products</button>
+        <button class="filter-tab" data-filter="phones">Phones & Tablets</button>
+        <button class="filter-tab" data-filter="laptops">Laptops</button>
+        <button class="filter-tab" data-filter="parts">Parts & Hardware</button>
+      </div>
+      <div class="product-grid" id="products-grid"></div>
+      <p style="text-align:center;margin-top:2rem;">
+        <a href="register.html?type=gadgets" class="btn btn-primary">Complete Registration for Order</a>
+        <a href="feedback.html?type=gadget" class="btn btn-outline">Store Feedback</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><div class="logo-icon"><img src="images/logo/tech-edu-logo.jpeg" alt="Logo"></div><span>Tech Education Services</span></a>
+        <p>Quality gadgets at fair prices — Francistown, Botswana.</p>
+      </div>
+      <div><h4>Brands</h4><ul><li>Samsung · iPhone · itel</li><li>Tecno · Huawei · Xiaomi</li><li>Dell · HP · Acer</li></ul></div>
+      <div><h4>Links</h4><ul><li><a href="register.html">Register</a></li><li><a href="feedback.html">Feedback</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Tech Education Services (Pty) Ltd.</span></div>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/products-data.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

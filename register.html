@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Tech Education Services</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><img src="images/logo/tech-edu-logo.jpeg" alt="Logo"></div>
+      <span>Tech Education Services</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tutorials.html">Tutorials</a></li>
+      <li><a href="exams.html">Exams</a></li>
+      <li><a href="store.html">Store</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="register.html" class="active">Register</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="register.html" class="nav-cta">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-hero">
+    <h1>Register & Sign Up</h1>
+    <p>Enter your details and choose what you want to join — free ICT courses, certification exams, or tech gadgets from our store.</p>
+  </header>
+
+  <section>
+    <div class="container form-page">
+      <div class="office-email-box reveal">
+        <p>Office Gmail (registrations sent here):</p>
+        <strong data-office-email>othusitseomphile6@gmail.com</strong>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin-top:0.5rem;">We reply to the email <strong>you</strong> enter below.</p>
+      </div>
+      <div id="form-msg" class="form-message"></div>
+      <div class="form-card reveal">
+        <form id="register-form">
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="you@email.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp *</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+267 ...">
+          </div>
+          <div class="form-group">
+            <label for="location">City / Location</label>
+            <input type="text" id="location" name="location" placeholder="e.g. Francistown">
+          </div>
+          <div class="form-group">
+            <label for="signupType">Primary sign-up type *</label>
+            <select id="signupType" name="signupType" required>
+              <option value="">— Select —</option>
+              <option value="course">Free ICT Course (Tutorial)</option>
+              <option value="exam">Certification Exam</option>
+              <option value="gadgets">Tech Store / Gadgets</option>
+              <option value="general">General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>I want to sign up for (tick all that apply)</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="signupFor" value="tutorials"> Free ICT Tutorials & Videos</label>
+              <label><input type="checkbox" name="signupFor" value="exams"> Certification Exams</label>
+              <label><input type="checkbox" name="signupFor" value="gadgets"> Tech Gadgets & Hardware</label>
+              <label><input type="checkbox" name="signupFor" value="repair"> Device Repair Service</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="course">Which course? (if tutorials/exam)</label>
+            <select id="course" name="course"></select>
+          </div>
+          <div class="form-group">
+            <label for="product">Which gadget? (if store)</label>
+            <select id="product" name="product"></select>
+          </div>
+          <div class="form-group">
+            <label for="notes">Additional message</label>
+            <textarea id="notes" name="notes" placeholder="Tell us what you need..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Submit Registration</button>
+        </form>
+        <p style="margin-top:1rem;font-size:0.9rem;color:var(--text-muted);text-align:center;">
+          Data saved on this website only. View cart items from <a href="store.html">Store</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-bottom" style="margin:0 auto;padding:2rem;text-align:center;">
+      <span>© 2026 Tech Education Services (Pty) Ltd.</span>
+    </div>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/site-data.js"></script>
+  <script src="js/products-data.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
